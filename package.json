@@ -10,21 +10,27 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.helloWorld"
+    "onCommand:helloWorld"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.helloWorld",
+        "command": "helloWorld",
         "title": "Hello World"
       }
     ],
+    "keybindings": [{
+      "command": "helloWorld",
+      "key": "ctrl+alt+1",
+      "mac": "cmd+option+1",
+      "when": "editorHasSelection"
+    }],
     "menus": {
       "editor/context": [
         {
           "when": "editorFocus",
-          "command": "extension.helloWorld",
+          "command": "helloWorld",
           "group": "navigation"
         }
       ]
