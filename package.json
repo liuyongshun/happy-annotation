@@ -112,7 +112,7 @@
     "json-schema": "^0.2.3",
     "json-stringify-safe": "^5.0.1",
     "mime-types": "^2.1.24",
-    "minimist": "^0.0.8",
+    "minimist": "^1.2.2",
     "mime-db": "^1.40.0",
     "mkdirp": "^0.5.1",
     "oauth-sign": "^0.9.0",
