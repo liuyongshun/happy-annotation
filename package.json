@@ -144,7 +144,7 @@
     "tunnel-agent": "^0.6.0",
     "uri-js": "^4.2.2",
     "tweetnacl": "^0.14.5",
-    "url-parse": "^1.4.7",
+    "url-parse": "^1.5.0",
     "verror": "^1.10.0",
     "vscode-test": "^0.4.3",
     "uuid": "^3.3.2",
